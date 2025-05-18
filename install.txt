@@ -1,1 +1,2 @@
-python3 -m pip install --upgrade pip setuptools wheel && python3 -m pip install -e luna-kit[cli]
+python3 -m pip install --upgrade pip setuptools wheel && python3 -m pip install --upgrade -e luna-kit[cli]
+python3 -m pip install --upgrade pip setuptools wheel luna-kit[cli]@git+https://github.com/JackieWaltRyan/luna-kit
